@@ -1,0 +1,49 @@
+.patient-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.form {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.doctor-list button {
+  margin: 5px;
+  padding: 6px 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.doctor-list .selected {
+  background-color: #007bff;
+  color: white;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: darkgreen;
+}

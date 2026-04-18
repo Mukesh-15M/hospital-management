@@ -1,0 +1,166 @@
+body {
+  font-family: Arial;
+  background: #f0f2f5;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.approved {
+  color: green;
+}
+
+.pending {
+  color: orange;
+}
+
+.completed{
+  color:grey;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #eef2f7;
+}
+
+/* Navbar */
+.navbar {
+  background: #2c3e50;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Card */
+.card {
+  background: white;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 12px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Buttons */
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #3498db;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+/* Login Page */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #3498db, #6dd5fa);
+}
+
+.login-card {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
+}
+
+.login-card h2 {
+  margin-bottom: 20px;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 12px;
+  margin: 15px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.login-card button {
+  width: 100%;
+  padding: 12px;
+  background: #2ecc71;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.login-card button:hover {
+  background: #27ae60;
+}

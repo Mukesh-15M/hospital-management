@@ -1,0 +1,59 @@
+.doctor-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.status {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.status.pending {
+  color: orange;
+}
+
+.status.accepted {
+  color: green;
+}
+
+.status.rejected {
+  color: red;
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.accept {
+  background-color: green;
+  color: white;
+}
+
+.reject {
+  background-color: red;
+  color: white;
+}
