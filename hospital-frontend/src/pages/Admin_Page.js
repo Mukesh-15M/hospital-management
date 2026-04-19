@@ -7,7 +7,8 @@ function AdminPage() {
   const navigate = useNavigate();
 
   const fetchData = () => {
-    axios.get(process.env.REACT_APP_API_URL + "/api/appointments")
+      axios.get(process.env.REACT_APP_API_URL + "/api/...")
+
       .then(res => setData(res.data));
   };
 
